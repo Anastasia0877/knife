@@ -1,0 +1,138 @@
+#catalog-page__section{
+    background: radial-gradient(
+        circle at top left,
+        rgba(248, 105, 0, 0.35) 0%,
+        rgba(248, 105, 0, 0.18) 22%,
+        rgba(248, 105, 0, 0.08) 38%,
+        rgba(248, 105, 0, 0.00) 58%
+    );
+}
+
+.catalog-page__container{
+    padding: 60px 12px 80px 60px;
+}
+
+.catalog-page__title{
+    margin-bottom: 40px;
+}
+
+.catalog-page__tabs-nav{
+    display:flex;
+    gap:50px;
+    margin-bottom:100px;
+}
+
+.catalog-page__tabs-btn{
+    position: relative;
+    border: none;
+    background: transparent;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--mont-400);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: color .35s ease, transform .35s ease;
+}
+
+.catalog-page__tabs-btn::after{
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 2px;
+    position: relative;
+    background-color: var(--white);
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+    opacity: 0.1;
+    transition: background-color .35s ease, opacity .35s ease, transform .35s ease;
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+.catalog-page__tabs-btn:hover{
+    transform: translateY(-1px);
+}
+
+.catalog-page__tabs-btn.active{
+    color: var(--orange);
+}
+
+.catalog-page__tabs-btn.active::after{
+    background-color: var(--orange);
+    opacity: 1;
+    transform: scaleX(1.04);
+}
+
+/* panels */
+.catalog-page__tab-panel{
+    display: none;
+    opacity: 0;
+    transform: translateY(18px);
+}
+
+.catalog-page__tab-panel.active{
+    display: block;
+    animation: catalogTabFadeIn .55s ease forwards;
+}
+
+@keyframes catalogTabFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* cards animation on tab switch */
+.catalog-page__tab-panel .main-page__our-products-item{
+    opacity: 0;
+    transform: translateY(22px);
+}
+
+.catalog-page__tab-panel .main-page__our-products-item.is-animated{
+    animation: catalogCardIn .55s ease forwards;
+}
+
+@keyframes catalogCardIn{
+    from{
+        opacity: 0;
+        transform: translateY(22px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.load-more-btn{
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 0;
+    padding: 15px 54px;
+    border-radius: 10px;
+    border: 2px solid var(--orange);
+    background: var(--orange);
+
+    color: var(--white);
+    text-align: center;
+    font-family: var(--mont-600);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+    transition: transform .35s ease, background-color .35s ease, color .35s ease;
+}
+
+.load-more-btn:hover{
+    transform: scale(1.03);
+}

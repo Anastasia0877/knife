@@ -1,0 +1,206 @@
+.card-product-page__container {
+    padding: 80px 12px 80px 60px;
+}
+.product-card-wrapp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 95px;
+}
+.product-slider-container {
+    position: relative;
+    max-width: 415px;
+    width: 100%;
+    height: 410px;
+    margin-bottom: 75px;
+    margin-right: 50px;
+}
+.product-slick-container {
+
+    max-width: 410px;
+    width: 100%;
+    height: 410px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    margin-right: 5px;
+}
+.product-slick-container img {
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid var(--orange);
+    border-radius: 20px;
+}
+
+.product__slider-arrow {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 410px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__slider-arrow .slick-arrow {
+    background: url("../../img/slider-arrow-grey.png") center/cover no-repeat;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.product__slider-arrow .slick-next:hover {
+    background: url("../../img/slider-arrow-orange.png") center/cover no-repeat;
+    transform: rotate(360deg);
+}
+.product__slider-arrow .slick-next {
+    transform: rotate(180deg);
+}
+.product__slider-arrow .slick-prev:hover {
+    background: url("../../img/slider-arrow-orange.png") center/cover no-repeat;
+    transform: rotate(180deg);
+}
+
+/*  */
+
+.product-check-color {
+    max-width: 410px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-check-color__title {
+    color: var(--white);
+    font-family: var(--mont-400);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.check-color__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 160px;
+    width: 100%;
+}
+.check-color__item {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.check-color__item:nth-of-type(1) {
+    background-color: blueviolet;
+}
+
+.check-color__item:nth-of-type(2) {
+    background-color: var(--orange);
+}
+
+.check-color__item:nth-of-type(3) {
+    background-color: crimson;
+}
+
+.check-color__item:nth-of-type(4) {
+    background-color: hotpink;
+}
+
+/*  */
+.product-card__right-section{
+    max-width: 860px;
+    width: 100%;
+}
+.product-card-page__name {
+    margin-bottom: 10px;
+    color: var(--white);
+    font-family: var(--mont-600);
+    text-align: left;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.product-card-page__collection {
+    margin-bottom: 30px;
+}
+.product-card-page__collection-title,
+.product-card-page__collection-value {
+    color: var(--white);
+    font-family: var(--mont-600);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.product-page__features {
+    margin-bottom: 85px;
+
+}
+.product-page__feature {
+    color: var(--white);
+    font-family: var(--mont-400);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+/*  */
+.product__price-cart-line{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+    
+}
+.product-card-page__price {
+    color: var(--white);
+font-family: var(--mont-600);
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.product-page__cart-btn {
+    cursor: pointer;
+    max-width: 316px;
+    width: 100%;
+    border-radius: 10px;
+border: 2px solid #F86900;
+background-color: transparent;
+color: var(--white);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px 25px;
+font-family: var(--mont-600);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.product-page__cart-btn img{
+   border: 2px solid var(--white);
+   border-radius: 3px;
+   padding: 5px;
+   width: 40px;
+   height: 40px;
+   
+}
+/*  */
+.video-wrapp{
+    border-radius:40px;
+    overflow:hidden;
+    aspect-ratio:16/9;
+}
+
+.video-wrapp iframe{
+    display:block;
+    width:100%;
+    height:100%;
+}

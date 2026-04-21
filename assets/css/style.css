@@ -1,0 +1,45 @@
+@import url(reset.css);
+@import url(font.css);
+@import url(slick.css);
+@import url(animate.css);
+@import url(aos.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(main.css);
+@import url(../css/media/media-head-foot.css);
+@import url(../css/media/media-main.css);
+@import url(../css/media/media-catalog.css);
+@import url(../css/media/media-card-product.css);
+@import url(../css/media/media-cart.css);
+@import url(../css/media/media-order.css);
+@import url(../css/media/media-info-page.css);
+@import url(../css/pages/404.css);
+@import url(../css/pages/card-product.css);
+@import url(../css/pages/cart.css);
+@import url(../css/pages/catalog.css);
+@import url(../css/pages/conf.css);
+@import url(../css/pages/contacts.css);
+@import url(../css/pages/delivery-pay.css);
+@import url(../css/pages/offert.css);
+@import url(../css/pages/order.css);
+
+
+
+/* variable */
+
+:root{
+    /* color */
+    --orange:#F86900;
+    --white:#FAFAFA;
+    --black:#000000;
+    --red:#FF5151;
+
+
+    /* font */
+    --mont-300:"mont-300", sans-serif;
+    --mont-400:"mont-400", sans-serif;
+    --mont-500:"mont-500", sans-serif;
+    --mont-600:"mont-600", sans-serif;
+    --mont-700:"mont-700", sans-serif;
+    --syne-400:"syne-400", sans-serif;
+}

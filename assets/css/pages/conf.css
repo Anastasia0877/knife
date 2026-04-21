@@ -1,0 +1,16 @@
+.conf-page__container{
+  padding: 60px 12px 80px 60px;
+}
+.conf-page-title{
+    margin-bottom: 50px;
+}
+.conf-page-desc p{
+    margin-bottom: 20px;
+    color:var(--white);
+font-family: var(--mont-400);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.24px;
+}

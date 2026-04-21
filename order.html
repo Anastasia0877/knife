@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Mikituk | Оформлення замовлення</title>
+    </head>
+    <body>
+        <header>
+            <nav class="site-nav">
+                <div class="menu-icon">
+                    <span class="menu-global menu-top"></span>
+                    <span class="menu-global menu-middle"></span>
+                    <span class="menu-global menu-bottom"></span>
+                </div>
+                <div class="logo-header">
+                    <a href="index.html">Mikituk</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="catalog.html">Каталог</a>
+                        </li>
+                        <li>
+                            <a href="delivery-pay.html">Доставка і оплата</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cart-lang">
+                    <div class="lang-switcher">
+                        <a href="#" class="lang-switcher__link">EN</a>
+                    </div>
+                    <div class="cart-header">
+                        <a href="cart.html"><img src="./assets/img/cart-icon.svg"></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main -->
+        <main id="order-page">
+            <section id="order-page__section">
+                <div class="container order-page__container">
+                    <div class="title main-page__our-products-title order-page__title"
+                         data-aos="fade-up"
+                         data-aos-duration="800">
+                        Оформлення замовлення
+                    </div>
+
+                    <div class="order-page__content">
+                        <form class="order-form"
+                              data-aos="fade-up"
+                              data-aos-delay="80"
+                              data-aos-duration="850">
+                            <div class="order-form__fields">
+
+                                <div class="order-form__field"
+                                     data-aos="fade-up"
+                                     data-aos-delay="100"
+                                     data-aos-duration="700">
+                                    <label class="order-form__label" for="order-name">ПІБ</label>
+                                    <input class="order-form__input" id="order-name" type="text" name="name" placeholder="Шевченко Тарас Іванович">
+                                </div>
+
+                                <div class="order-form__field"
+                                     data-aos="fade-up"
+                                     data-aos-delay="140"
+                                     data-aos-duration="700">
+                                    <label class="order-form__label" for="order-phone">Телефон</label>
+                                    <input class="order-form__input" id="order-phone" type="tel" name="phone" placeholder="+38 (068)-000-02-02">
+                                </div>
+
+                                <div class="order-form__field"
+                                     data-aos="fade-up"
+                                     data-aos-delay="180"
+                                     data-aos-duration="700">
+                                    <label class="order-form__label" for="order-city">Місто</label>
+                                    <input class="order-form__input" id="order-city" type="text" name="city" placeholder="Вкажіть місто">
+                                </div>
+
+                                <div class="order-form__field"
+                                     data-aos="fade-up"
+                                     data-aos-delay="220"
+                                     data-aos-duration="700">
+                                    <label class="order-form__label" for="order-post">Відділення Нової Пошти</label>
+                                    <input class="order-form__input" id="order-post" type="text" name="warehouse" placeholder="Вкажіть відділення">
+                                </div>
+
+                                <div class="order-form__field"
+                                     data-aos="fade-up"
+                                     data-aos-delay="260"
+                                     data-aos-duration="700">
+                                    <div class="order-form__label order-form__label--static">Спосіб оплати</div>
+
+                                    <div class="order-form__payment-list">
+                                        <label class="order-form__payment-item">
+                                            <input type="radio" name="payment" value="cod" checked>
+                                            <span class="order-form__payment-radio"></span>
+                                            <span class="order-form__payment-text">Накладений платіж</span>
+                                        </label>
+
+                                        <label class="order-form__payment-item">
+                                            <input type="radio" name="payment" value="full">
+                                            <span class="order-form__payment-radio"></span>
+                                            <span class="order-form__payment-text">Повна оплата на сайті</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <label class="order-form__agree"
+                                   data-aos="fade-up"
+                                   data-aos-delay="300"
+                                   data-aos-duration="700">
+                                <input class="order-form__agree-input" type="checkbox" name="agreement">
+                                <span class="order-form__agree-box"></span>
+                                <span class="order-form__agree-text">
+                                    Натискаючи кнопку “Оформити замовлення”, ви підтверджуєте, що ознайомлені та погоджуєтеся з
+                                    <a href="conf.html">Політикою конфіденційності</a>
+                                    та
+                                    <a href="offert.html">Умовами користування сайтом</a>.
+                                </span>
+                            </label>
+
+                            <button class="order-form__submit"
+                                    type="submit"
+                                    data-aos="fade-up"
+                                    data-aos-delay="340"
+                                    data-aos-duration="700">
+                                Оформити замовлення
+                            </button>
+                        </form>
+
+                        <aside class="order-summary"
+                               data-aos="fade-up"
+                               data-aos-delay="140"
+                               data-aos-duration="850">
+                            <div class="order-summary__list">
+
+                                <article class="order-summary__item"
+                                         data-aos="fade-up"
+                                         data-aos-delay="160"
+                                         data-aos-duration="700">
+                                    <div class="order-summary__image">
+                                        <img src="./assets/img/catalog-img-3.jpg" alt="Середній ніж">
+                                    </div>
+
+                                    <div class="order-summary__info">
+                                        <div class="order-summary__name">Середній ніж</div>
+
+                                        <div class="order-summary__collection">
+                                            <span class="order-summary__collection-title">Колекція:</span>
+                                            <span class="order-summary__collection-value">Outdoor</span>
+                                        </div>
+
+                                        <div class="order-summary__meta">
+                                            <div class="order-summary__row">
+                                                <span class="order-summary__row-title">Колір</span>
+                                                <span class="order-summary__color" style="background-color:#5b4ce6;"></span>
+                                            </div>
+
+                                            <div class="order-summary__row">
+                                                <span class="order-summary__row-title">Кількість</span>
+                                                <span class="order-summary__row-value">1</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="order-summary__price">
+                                            <span class="order-summary__price-value">4 255</span>
+                                            <span class="order-summary__price-currency">грн</span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="order-summary__item"
+                                         data-aos="fade-up"
+                                         data-aos-delay="220"
+                                         data-aos-duration="700">
+                                    <div class="order-summary__image">
+                                        <img src="./assets/img/catalog-img-1.jpg" alt="Маленький ніж">
+                                    </div>
+
+                                    <div class="order-summary__info">
+                                        <div class="order-summary__name">Маленький ніж</div>
+
+                                        <div class="order-summary__collection">
+                                            <span class="order-summary__collection-title">Колекція:</span>
+                                            <span class="order-summary__collection-value">EDC</span>
+                                        </div>
+
+                                        <div class="order-summary__meta">
+                                            <div class="order-summary__row">
+                                                <span class="order-summary__row-title">Колір</span>
+                                                <span class="order-summary__color" style="background-color:#ff7a00;"></span>
+                                            </div>
+
+                                            <div class="order-summary__row">
+                                                <span class="order-summary__row-title">Кількість</span>
+                                                <span class="order-summary__row-value">2</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="order-summary__price">
+                                            <span class="order-summary__price-value">10 000</span>
+                                            <span class="order-summary__price-currency">грн</span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="order-summary__item"
+                                         data-aos="fade-up"
+                                         data-aos-delay="280"
+                                         data-aos-duration="700">
+                                    <div class="order-summary__image">
+                                        <img src="./assets/img/catalog-img-1.jpg" alt="Маленький ніж">
+                                    </div>
+
+                                    <div class="order-summary__info">
+                                        <div class="order-summary__name">Маленький ніж</div>
+
+                                        <div class="order-summary__collection">
+                                            <span class="order-summary__collection-title">Колекція:</span>
+                                            <span class="order-summary__collection-value">EDC</span>
+                                        </div>
+
+                                        <div class="order-summary__meta">
+                                            <div class="order-summary__row">
+                                                <span class="order-summary__row-title">Колір</span>
+                                                <span class="order-summary__color" style="background-color:#ff7a00;"></span>
+                                            </div>
+
+                                            <div class="order-summary__row">
+                                                <span class="order-summary__row-title">Кількість</span>
+                                                <span class="order-summary__row-value">2</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="order-summary__price">
+                                            <span class="order-summary__price-value">10 000</span>
+                                            <span class="order-summary__price-currency">грн</span>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </div>
+
+                            <div class="order-summary__total"
+                                 data-aos="fade-up"
+                                 data-aos-delay="340"
+                                 data-aos-duration="700">
+                                <span class="order-summary__total-title">Сума</span>
+                                <span class="order-summary__total-value">14 255 грн</span>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="footer__container">
+                    <div class="footer-logo"
+                         data-aos="fade-up"
+                         data-aos-duration="800">
+                        <a href="#">Mikituk</a>
+                    </div>
+                    <div class="footer-menu"
+                         data-aos="fade-up"
+                         data-aos-delay="100"
+                         data-aos-duration="800">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Контакти</a>
+                            </li>
+                            <li>
+                                <a href="conf.html">Політика конфіденційності</a>
+                            </li>
+                            <li>
+                                <a href="delivery-pay.html">Доставка і оплата</a>
+                            </li>
+                            <li>
+                                <a href="catalog.html">Каталог</a>
+                            </li>
+                            <li>
+                                <a href="offert.html">Договір оферти</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-contacts"
+                         data-aos="fade-up"
+                         data-aos-delay="200"
+                         data-aos-duration="800">
+                        <div class="footer-contacts__phone"><a href="#">38 (066) 111-11-11</a></div>
+                        <div class="footer-contacts__social-media">
+                            <div class="footer-social-item footer-facebook"><a href=""><img src="./assets/img/facebook.svg"/></a></div>
+                            <div class="footer-social-item footer-instagram"><a href=""><img src="./assets/img/instagram.svg"/></a></div>
+                            <div class="footer-social-item footer-telegram"><a href=""><img src="./assets/img/telegram.svg"/></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/js/jQuery v3.6.1.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+        <script>
+            AOS.init({
+                once: true,
+                duration: 800,
+                offset: 80,
+                easing: 'ease-out-cubic'
+            });
+        </script>
+    </body>
+</html>

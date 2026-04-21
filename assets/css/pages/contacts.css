@@ -1,0 +1,76 @@
+#contacts-page__section{
+        background: radial-gradient(circle at top left, rgba(248, 105, 0, 0.35) 0%, rgba(248, 105, 0, 0.18) 22%, rgba(248, 105, 0, 0.08) 38%, rgba(248, 105, 0, 0.00) 58%);
+
+}
+.contacts-page__container{
+  padding: 60px 12px 80px 60px;
+}
+.contacts-page-title{
+    margin-bottom: 50px;
+}
+.contacts-block-text{
+    margin-bottom: 50px;
+}
+.contacts-block-title {
+    margin-bottom: 15px;
+    color: var(--orange);
+font-family: var(--mont-400);
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contacts-page-desc p,
+.contacts-page-desc p a{
+    margin-bottom: 20px;
+    color: var(--white);
+font-family: var(--mont-400);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.24px;
+}
+.contacts-page-desc p a{
+    cursor: pointer;
+}
+.contacts-page-schedule{
+    max-width:350px;
+    width:100%;
+
+    display:grid;
+    grid-template-columns: 1fr auto;
+    column-gap:55px;
+    row-gap:15px;
+
+    color:var(--white);
+    font-family:var(--mont-400);
+    font-size:24px;
+    font-weight:400;
+    line-height:normal;
+}
+
+.contacts-day-of-week{
+    text-align:left;
+}
+
+.contacts-time-of-day{
+    text-align:left;
+}
+.contacts-social-media{
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts-page-sm-item{
+    cursor: pointer;
+    max-width: 30px;
+
+}
+.contacts-page-sm-item img{
+    object-fit: cover;
+    width: 100%;
+
+}

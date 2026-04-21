@@ -1,0 +1,148 @@
+@media (max-width: 992px){
+  #order-page  .order-page__content{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+  #order-page  .order-form{
+        max-width: 100%;
+    }
+
+  #order-page  .order-summary{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+  #order-page  .order-page__title{
+        margin-bottom: 40px;
+    }
+
+  #order-page  .order-form__fields{
+        gap: 32px;
+        margin-bottom: 28px;
+    }
+
+  #order-page  .order-summary__list{
+        max-height: 420px;
+        padding-right: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+  #order-page  .order-form__input{
+        height: 68px;
+        font-size: 20px;
+    }
+
+  #order-page  .order-form__label,
+   #order-page .order-form__label--static{
+        font-size: 16px;
+    }
+
+   #order-page .order-form__payment-text{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+   #order-page .order-summary__item{
+        gap: 16px;
+        padding-bottom: 22px;
+        margin-bottom: 22px;
+    }
+
+   #order-page .order-summary__image{
+        max-width: 150px;
+        flex: 0 0 150px;
+    }
+
+   #order-page .order-summary__name{
+        font-size: 22px;
+    }
+
+   #order-page .order-summary__collection,
+   #order-page .order-summary__row-title,
+   #order-page .order-summary__row-value{
+        font-size: 16px;
+    }
+
+   #order-page .order-summary__price{
+        font-size: 22px;
+    }
+
+   #order-page .order-summary__total-title,
+   #order-page .order-summary__total-value{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:579.98px) {
+    #order-page .order-page__container {
+        padding: 60px 12px 80px 30px;
+    }
+
+   #order-page .order-page__title{
+        margin-bottom: 30px;
+    }
+
+   #order-page .order-form__input{
+        height: 60px;
+        padding: 0 18px;
+        border-radius: 14px;
+        font-size: 18px;
+    }
+
+   #order-page .order-form__label,
+   #order-page .order-form__label--static{
+        left: 16px;
+        padding: 0 8px;
+        font-size: 14px;
+    }
+
+  #order-page  .order-form__payment-list{
+        padding: 24px 18px 18px;
+        border-radius: 14px;
+    }
+
+   #order-page .order-form__payment-text{
+        font-size: 18px;
+    }
+
+   #order-page .order-form__agree-text{
+        font-size: 14px;
+    }
+
+   #order-page .order-form__submit{
+    font-size: 16px;
+        width: 100%;
+        min-width: unset;
+    }
+
+   #order-page .order-summary__item{
+        flex-direction: column;
+    }
+
+   #order-page .order-summary__image{
+        max-width: 100%;
+        flex: unset;
+    }
+
+   #order-page .order-summary__name{
+        font-size: 20px;
+    }
+
+  #order-page  .order-summary__price{
+        font-size: 20px;
+    }
+
+   #order-page .order-summary__total-title,
+   #order-page .order-summary__total-value{
+        font-size: 24px;
+    }
+
+  #order-page  .order-summary__list{
+        max-height: 720px;
+        padding-right: 10px;
+    }
+}
